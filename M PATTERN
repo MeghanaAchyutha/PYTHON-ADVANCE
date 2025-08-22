@@ -1,0 +1,13 @@
+a = [[" "for i in range(11)]for i in range(11)]
+for i in range(11):
+    for j in range(11):
+        if (j == 9 or j==0):
+            a[i][j]="*"
+        elif(i==j and i<5):
+            a[i][j]="*"
+        elif(i+j==9 and i<5):
+            a[i][j]="*"
+for i in range(11):
+    for j in range(11):
+        print(a[i][j],end=" ")
+    print()

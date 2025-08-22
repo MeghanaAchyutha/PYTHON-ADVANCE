@@ -1,0 +1,7 @@
+a = ["meghana","bhanuja","kiran","lavanya"]
+cgpa = [59,66,88,77]
+arrear = [0,1,2,0]
+for i in range(4):
+    if(cgpa[i] >= 60):
+        if(arrear[i] == 0):
+            print(a[i])
